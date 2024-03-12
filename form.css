@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: rgb(178, 178, 178);
+}
+
+form {
+    margin: 1em auto;
+    max-width: 500px;
+}
+
+input {
+    font-weight: 700;
+    font-size: 0.9rem;
+    width: calc(100% - 1.9em);
+    margin-bottom: 1.3em;
+    padding: 1.5em 1em;
+    border-radius: 0.8em;
+    outline: none;
+    border: none;
+}

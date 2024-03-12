@@ -6,7 +6,7 @@ body {
 }
 
 form {
-    margin: 1em auto;
+    margin: 0.5em auto;
     max-width: 500px;
 }
 
@@ -14,9 +14,20 @@ input {
     font-weight: 700;
     font-size: 0.9rem;
     width: calc(100% - 1.9em);
-    margin-bottom: 1.3em;
+    margin-bottom: 1em;
     padding: 1.5em 1em;
     border-radius: 0.8em;
     outline: none;
     border: none;
+}
+
+#submit {
+    width: 100%;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+#submit:hover {
+    color: white;
+    background-color: rgb(46, 43, 43);
 }
